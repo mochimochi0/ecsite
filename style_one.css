@@ -1,3 +1,7 @@
+body{
+  background-color: #F5FFFA;
+}
+
 .back{
   margin: 5px 0 0 10px; 
 }
@@ -22,6 +26,7 @@
   border: dotted 2px #D2B48C;
   width: 90%;
   margin: 0 auto;
+  background-color: white;
 }
 
 .buy_list{
@@ -35,6 +40,14 @@ color: #D2B48C;
   text-align: center;
   margin: 0 auto;
   padding: 10px 0px;
+}
+
+#item_buy_list{
+  list-style: none;
+}
+
+.buy_list_price:before{
+  content: "\0a5";
 }
 
 #btn{
