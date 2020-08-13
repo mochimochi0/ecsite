@@ -1,24 +1,47 @@
 .title{
   width: 100%;
-  line-height: 150px;
+  height: 150px;
   display: table;
   background-color: #F5FFFA;
 
 }
 
 .title h2{
-  display: table-cell;
   text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 0px #D2B48C,
+   -2px 2px 0px #D2B48C,
+   2px -2px 0px #D2B48C,
+   -2px -2px 0px #D2B48C,
+   2px 0px 0px #D2B48C,
+   -2px 0px 0px #D2B48C,
+   0px -2px 0px #D2B48C,
+   0px 2px 0px #D2B48C;
+   height: 30px;
+   margin-top: 40px;
+}
+
+.cart_cnt{
+  height: 40px;
+  margin: 0 30px;
 }
 
 #count{
-  color: black;
+  color: white;
+  background-color: #D2B48C;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: bolder;
+  float: left;
 }
 
 .cart{
   display: table-cell;
   text-align: right;
-  color: black;
+  color: #D2B48C;
 } 
 
 body{
