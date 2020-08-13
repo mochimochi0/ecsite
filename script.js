@@ -1,5 +1,5 @@
 'use strict'
-
+//購入画面での動き
 window.onload = function(){
   var count = document.getElementById('count'),
   item_cart_btn = document.querySelectorAll('.item_cart_btn'),
@@ -19,6 +19,8 @@ window.onload = function(){
 
       h2.appendChild(document.createTextNode(items[i].name));
       price.appendChild(document.createTextNode(items[i].price));
+      
+      price.classList.add('buy_list_price');
 
       li.appendChild(h2);
       li.appendChild(price);
